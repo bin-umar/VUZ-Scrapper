@@ -5,49 +5,44 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const builder = require('xmlbuilder');
 
-const obj = {
-    objects: {
-        object: []
-    }
-};
+const XmlConverting = (city, code) => {
+    const obj = {
+        objects: {
+            object: []
+        }
+    };
 
-const XmlSaver = async () => {
-    for (let i = 1; i <= 10; i++) {
-        const options = {
-            uri: `http://vuzopedia.ru/vuz/${i}`,
-            transform: (body) => cheerio.load(body)
+    const file = fs.readFileSync(`results/edunetwork-ru/uniivers-${city}.json`);
+    const list = Array.from(JSON.parse(file));
+
+    list.forEach(un => {
+        const geo = un.geo.split(' ');
+        const object = {
+            '@code': code++,
+            '@name_short': un.name_short,
+            '@name_long': un.name_long,
+            '@geo_x': geo[1],
+            '@geo_y': geo[0],
+            '@type': 8,
+            '@description': un.description,
+            '@contact': `${un.contact} ${un.phone}`,
+            '@url': un.site,
+            '@work_time': un.selection_committee.work_time,
+            '@average_ege': un.average_ege
         };
 
-        try {
-            const $ = await rp(options);
-            const object = {
-                '@code': '',
-                '@name_short': '',
-                '@name_long': $('.mainTitle').text().replace(/\s+/g,' ').trim(),
-                '@geo_x': '',
-                '@geo_y': '',
-                '@type': '',
-                '@description': $('.midVuztext').text().replace(/\s+/g,' ').trim(),
-                '@contact': $('.specnoqqwe div').eq(1).text(),
-                '@url': $('.specnoqqwe div').eq(3).text(),
-                '@work_time': '',
-            };
-
-            obj.objects.object.push(object);
-        } catch (e) {
-            console.log(e);
-        }
-    }
+        obj.objects.object.push(object);
+    });
 
     const xml = builder.create(obj).end({ pretty: true });
-    fs.writeFile('result.xml', xml, () => console.log('XML successfully generated'));
+    fs.writeFile(`results/${city}.xml`, xml, () => console.log('XML successfully generated'));
 };
 
 const JsonSaver = async () => {
     fs.writeFile('result.json', '[', () => null);
     const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
-    const VUZ_END = 1000;
-    const VUZ_START = 407;
+    const VUZ_END = 10;
+    const VUZ_START = 1;
 
     bar.start(VUZ_END - VUZ_START + 1, 0);
 
@@ -123,4 +118,6 @@ const TestOne = async () => {
     console.log(obj.objects.object[0]);
 };
 
+XmlConverting('sp', 34);
+XmlConverting('moscow', 40);
 // TestOne();

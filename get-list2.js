@@ -2,32 +2,32 @@ const rp = require('requestretry');
 const colors = require('colors');
 const _cliProgress = require('cli-progress');
 const fs = require('fs');
-const path = require('path');
 const cheerio = require('cheerio');
-const builder = require('xmlbuilder');
 
 const site = 'edunetwork-ru';
 const filename = `results/${site}/list-uniivers2.json`;
-const filenameMoscow = `results/${site}/uniivers-moscow.json`;
+const filenameMoscow = `results/${site}/uniivers-moscow2.json`;
 const filenamePiter = `results/${site}/uniivers-sp.json`;
 
 const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 
 const JsonSaver = async () => {
     fs.writeFile(filename, '[', () => null);
-    bar.start(3 * 30, 0);
+    bar.start(6 * 30, 0);
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 6; i++) {
         try {
             const req = await rp({
                 uri: `http://vuz.edunetwork.ru/77/?page=${i}`
             });
             const $ = cheerio.load(req.body);
 
-            $('.unit-name a').each((_, item) => {
+            $('.unit').each((_, item) => {
+                const a = $(item).find('.unit-name a');
                 const object = {
-                    name: $(item).text().trim(),
-                    url: `http://vuz.edunetwork.ru` + $(item).attr('href')
+                    name: a.text().trim(),
+                    url: `http://vuz.edunetwork.ru` + a.attr('href'),
+                    ege: $(item).find('.unit-stats .ege').text().trim()
                 };
 
                 if (object.name && !object.name.toLowerCase().includes('филиал')) {
@@ -52,6 +52,7 @@ const JsonSaver = async () => {
 const GetFullPropertiesToJson = async (filetoSave) => {
     const file = fs.readFileSync(filename);
     const list = JSON.parse(file);
+    const newList = [];
     bar.start(list.length, 0);
 
     fs.writeFile(filetoSave, '[', () => null);
@@ -81,6 +82,12 @@ const GetFullPropertiesToJson = async (filetoSave) => {
                     url: list[i].url
                 };
 
+                const img_url = 'http://vuz.edunetwork.ru' + $('.card-image.hide-on-small-only img').attr('src');
+                const img_name = `${i}.png`;
+                object.image = 'ms/' + img_name;
+                rp(img_url).pipe(fs.createWriteStream(`results/edunetwork-ru/ms/${img_name}`));
+
+                newList.push(object);
                 fs.appendFile(filetoSave, JSON.stringify(object, null, 4) + ',\n', () =>
                     console.log(`Successfully appended json`.yellow)
                 );
@@ -92,11 +99,10 @@ const GetFullPropertiesToJson = async (filetoSave) => {
         }
     }
 
-    fs.appendFile(filetoSave, ']', () => console.log('Finished scrapping'.yellow));
+    fs.writeFile(filetoSave, JSON.stringify(newList, null, 4), () => console.log('Finished scrapping'.yellow));
     bar.stop();
 };
 
-// TestOne();
 // JsonSaver();
 GetFullPropertiesToJson(filenameMoscow);
 

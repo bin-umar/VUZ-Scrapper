@@ -4,19 +4,19 @@ const _cliProgress = require('cli-progress');
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
-const builder = require('xmlbuilder');
 
 const site = 'vuzopedia-ru';
-// const filename = `results/${site}/list-uniivers.json`;
-const filename = `results/${site}/list-uniivers2.json`;
-const filenameMoscow = `results/${site}/uniivers-moscow.json`;
-const filenamePiter = `results/${site}/uniivers-sp.json`;
+const directory = `results/${site}`;
+const filename = `results/${site}/list-uniivers.json`;
+// const filename = `${directory}/list-uniivers2.json`;
+const filenameMoscow = `${directory}/uniivers-moscow.json`;
+const filenamePiter = `${directory}/uniivers-sp.json`;
 
 const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 
 const JsonSaver = async () => {
     fs.writeFile(filename, '[', () => null);
-    bar.start(9 * 12, 0);
+    bar.start(9 * 10, 0);
 
     for (let i = 1; i <= 9; i++) {
         try {
@@ -32,6 +32,13 @@ const JsonSaver = async () => {
                 };
 
                 if (object.name && !object.name.toLowerCase().includes('филиал')) {
+                    const img_url = $(item).prev().attr('src');
+                    if (/^https?:\/\//.test(img_url)) {
+                        const img_name = `${_ + (i - 1) * 10}.${path.basename(img_url).split('.')[1]}`;
+                        object.image = img_name;
+                        rp(img_url).pipe(fs.createWriteStream(`${directory}/sp/${img_name}`));
+                    }
+
                     fs.appendFile(filename,
                         JSON.stringify(object, null, 4) + ',\n',
                         () => console.log(object.name.yellow)
@@ -90,6 +97,6 @@ const GetFullPropertiesToJson = async (filetoSave) => {
 };
 
 // TestOne();
-// JsonSaver();
-GetFullPropertiesToJson(filenamePiter);
+JsonSaver();
+// GetFullPropertiesToJson(filenamePiter);
 
