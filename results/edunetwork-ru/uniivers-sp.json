@@ -1,0 +1,1373 @@
+[
+    {
+        "selection_committee": {
+            "address": "192238, г. Санкт-Петербург, ул. Фучика, д. 15, каб. 180, 186",
+            "phone": "+7 (800) 333-52-02+7 (812) 327-27-28",
+            "site": "http://www.gup.ru/enroll/",
+            "email": "pricom@gup.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 17:30 180, 186"
+        },
+        "name_short": "СПбГУП",
+        "name_long": "Санкт-Петербургский гуманитарный университет профсоюзов",
+        "description": "",
+        "contact": "192238, г. Санкт-Петербург, ул. Фучика, д. 15",
+        "phone": "+7 (812) 269-57-58",
+        "site": "http://www.gup.ru",
+        "url": "http://vuz.edunetwork.ru/78/v575/",
+        "image": "sp/0.png",
+        "average_ege": "71.48",
+        "geo": "30.377466 59.879344"
+    },
+    {
+        "selection_committee": {
+            "address": "199034, г. Санкт-Петербург, Университетская наб., д. 13б, второй этаж",
+            "phone": "+7 (812) 363-66-36",
+            "site": "http://abiturient.spbu.ru",
+            "email": "abiturient@spbu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "СПбГУ",
+        "name_long": "Санкт-Петербургский государственный университет",
+        "description": "Санкт-Петербургский государственный университет — первый вуз России (основан императором Петром I в 1724 году), научный, образовательный и культурный центр мирового значения. Университет обладает правом устанавливать собственные образовательные стандарты и выдавать дипломы собственного образца, а также правом проводить защиты диссертаций на соискание ученых степеней по собственным правилам.",
+        "contact": "199034, г. Санкт-Петербург, Университетская набережная, д. 7/9",
+        "phone": "+7 (812) 328-20-00",
+        "site": "http://spbu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v570/",
+        "image": "sp/1.png",
+        "average_ege": "84.55",
+        "geo": "30.300246 59.94074"
+    },
+    {
+        "selection_committee": {
+            "address": "190103, г. Санкт-Петербург, Лермонтовский пр., д. 44",
+            "phone": "+7 (812) 575-11-30+7 (812) 575-11-32+7 (800) 234-15-32",
+            "site": "http://www.spbume.ru/ru/admission/",
+            "email": "pk@spbume.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 09:00 до 17:45 каб. 222Пт. c 09:00 до 16:45 каб. 222"
+        },
+        "name_short": "СПбУТУиЭ",
+        "name_long": "Санкт-Петербургский университет технологий управления и экономики",
+        "description": "Санкт-Петербургский университет технологий управления и экономики является одним из крупнейших учебных заведений, где выпускники школ могут получить Европейское образование, которое котируется в научно-образовательном пространстве не только России, но и за рубежом.",
+        "contact": "190103, г. Санкт-Петербург, Лермонтовский проспект, д. 44, лит. А",
+        "phone": "+7 (812) 575-03-00",
+        "site": "http://www.spbume.ru",
+        "url": "http://vuz.edunetwork.ru/78/v219/",
+        "image": "sp/2.png",
+        "average_ege": "56.58",
+        "geo": "30.298369 59.913839"
+    },
+    {
+        "selection_committee": {
+            "address": "190005, г. Санкт-Петербург, ул. 1-я Красноармейская, д. 1",
+            "phone": "+7 (812) 495-77-99",
+            "site": "http://www.voenmeh.ru/admission/committee",
+            "email": "admission@voenmeh.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 10:00 до 17:00"
+        },
+        "name_short": "БГТУ «ВОЕНМЕХ»",
+        "name_long": "Балтийский государственный технический университет ВОЕНМЕХ им. Д.Ф. Устинова",
+        "description": "Балтийский государственный технический университет «Военмех» является ярким представителем инженерной школы России, сумевшим сохранить и приумножить достижения отечественного и мирового инженерно-технического образования.",
+        "contact": "190005, г. Санкт-Петербург, ул. 1-я Красноармейская, д. 1",
+        "phone": "+7 (812) 495-77-01",
+        "site": "http://www.voenmeh.ru",
+        "url": "http://vuz.edunetwork.ru/78/v38/",
+        "image": "sp/3.png",
+        "average_ege": "62.36",
+        "geo": "30.315751 59.916361"
+    },
+    {
+        "selection_committee": {
+            "address": "196210, г. Санкт-Петербург, ул. Пилотов, д. 38, каб. 220",
+            "phone": "+7 (812) 704-15-57",
+            "site": "http://spbguga.ru",
+            "email": "7041557@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:30 до 15:00 каб. № 220"
+        },
+        "name_short": "ФГБОУ ВО СПбГУ ГА",
+        "name_long": "Санкт-Петербургский государственный университет гражданской авиации",
+        "description": "",
+        "contact": "196210, г. Санкт-Петербург, ул. Пилотов, д. 38",
+        "phone": "+7 (812) 704-18-18",
+        "site": "http://www.spbguga.ru",
+        "url": "http://vuz.edunetwork.ru/78/v6/",
+        "image": "sp/4.png",
+        "average_ege": "63.76",
+        "geo": "30.290751 59.818703"
+    },
+    {
+        "selection_committee": {
+            "address": "191186, г. Санкт-Петербург, Дворцовая набережная, дом 2. Аудитория 2103",
+            "phone": "+7 (812) 318-97-10",
+            "site": "http://www.spbgik.ru/",
+            "email": "pk@spbgik.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 16:00"
+        },
+        "name_short": "СПбГИК",
+        "name_long": "Санкт-Петербургский государственный институт культуры",
+        "description": "",
+        "contact": "191186, г. Санкт-Петербург, Дворцовая наб., д. 2",
+        "phone": "+7 (812) 318-97-97",
+        "site": "http://www.spbgik.ru",
+        "url": "http://vuz.edunetwork.ru/78/v549/",
+        "image": "sp/5.png",
+        "average_ege": "70.16",
+        "geo": "30.331391 59.946536"
+    },
+    {
+        "selection_committee": {
+            "address": "191028, г. Санкт-Петербург, Моховая ул., д. 40",
+            "phone": "+7 (812) 920-88-43",
+            "site": "http://vhutein.ru/applicants/the_admissions_committee",
+            "email": "abiturient@vhutein.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "ВХУТЕИН",
+        "name_long": "Художественно-технический институт",
+        "description": "",
+        "contact": "191028, г. Санкт-Петербург, Моховая ул., д. 40",
+        "phone": "+7 (812) 920-88-43",
+        "site": "http://vhutein.ru",
+        "url": "http://vuz.edunetwork.ru/78/v3461/",
+        "image": "sp/6.png",
+        "average_ege": "",
+        "geo": "30.34545 59.939613"
+    },
+    {
+        "selection_committee": {
+            "address": "195009, г. Санкт-Петербург, ул. Комсомола, д. 22",
+            "phone": "+7 (812) 292-14-85",
+            "site": "http://mvaa.mil.ru/Postupayuschim",
+            "email": "mvaa@mil.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "МВАА",
+        "name_long": "Михайловская военная артиллерийская академия",
+        "description": "",
+        "contact": "195009, г. Санкт-Петербург, ул. Комсомола, д. 22",
+        "phone": "+7 (812) 542-15-71",
+        "site": "http://mvaa.mil.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2574/",
+        "image": "sp/7.png",
+        "average_ege": "",
+        "geo": "30.352879 59.95543"
+    },
+    {
+        "selection_committee": {
+            "address": "191023, г. Санкт-Петербург, ул. Садовая, д.21",
+            "phone": "+7 (812) 458-97-58+7 (812) 310-55-55",
+            "site": "http://unecon.ru/abiturientam/priemnaya-komissiya",
+            "email": "abitura@unecon.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 17:00"
+        },
+        "name_short": "СПбГЭУ",
+        "name_long": "Санкт-Петербургский государственный экономический университет",
+        "description": "",
+        "contact": "191023, г. Санкт-Петербург, ул. Садовая, д.21",
+        "phone": "+7 (812) 310-38-23",
+        "site": "http://www.unecon.ru",
+        "url": "http://vuz.edunetwork.ru/78/v582/",
+        "image": "sp/8.png",
+        "average_ege": "71.55",
+        "geo": "30.32645 59.931242"
+    },
+    {
+        "selection_committee": {
+            "address": "196084, г. Санкт-Петербург, ул. Черниговская, д. 5",
+            "phone": "+7 (812) 387-51-44",
+            "site": "http://spbgavm.ru/abitur/",
+            "email": "spbgavm-priem@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "СпбГАВМ",
+        "name_long": "Санкт-Петербургская государственная академия ветеринарной медицины",
+        "description": "",
+        "contact": "196084, г. Санкт-Петербург, ул. Черниговская, д. 5",
+        "phone": "+7 (812) 388-36-31",
+        "site": "http://spbgavm.ru",
+        "url": "http://vuz.edunetwork.ru/78/v548/",
+        "image": "sp/9.png",
+        "average_ege": "68.04",
+        "geo": "30.323791 59.894112"
+    },
+    {
+        "selection_committee": {
+            "address": "191028, г. Санкт-Петербург, Соляной пер. д. 13",
+            "phone": "+7 (812) 272-51-73",
+            "site": "http://www.ghpa.ru",
+            "email": "priem@ghpa.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 15:00"
+        },
+        "name_short": "СПГХПА им. А.Л. Штиглица",
+        "name_long": "Санкт-Петербургская государственная художественно-промышленная академия имени А.Л.Штиглица",
+        "description": "",
+        "contact": "191028, г. Санкт-Петербург, Соляной пер., д. 13",
+        "phone": "+7 (812) 273-38-04",
+        "site": "http://www.ghpa.ru",
+        "url": "http://vuz.edunetwork.ru/78/v558/",
+        "image": "sp/10.png",
+        "average_ege": "74.80",
+        "geo": "30.341012 59.943368"
+    },
+    {
+        "selection_committee": {
+            "address": "196601, г. Санкт-Петербург, г. Пушкин, Петербургское шоссе, д. 2, 1-й учебный корпус",
+            "phone": "+7 (812) 451-90-80+7 (812) 476-99-21+7 (812) 476-36-16",
+            "site": "http://spbgau.ru/entering/",
+            "email": "pk_spbgau@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:30 до 16:00"
+        },
+        "name_short": "СПбГАУ",
+        "name_long": "Санкт-Петербургский государственный аграрный университет",
+        "description": "",
+        "contact": "196601, г. Санкт-Петербург, г. Пушкин, Петербургское шоссе, д. 2",
+        "phone": "+7 (812) 470-04-22",
+        "site": "http://spbgau.ru",
+        "url": "http://vuz.edunetwork.ru/78/v561/",
+        "image": "sp/11.png",
+        "average_ege": "59.02",
+        "geo": "30.388344 59.730643"
+    },
+    {
+        "selection_committee": {
+            "address": "197110, г. Санкт-Петербург, ул. Петрозаводская, д. 13, лит. А",
+            "phone": "+7 (812) 235-41-09",
+            "site": "http://batp.ru/abiturientu/",
+            "email": "priem@batp.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:30 до 17:30"
+        },
+        "name_short": "БАТиП",
+        "name_long": "Балтийская академия туризма и предпринимательства",
+        "description": "",
+        "contact": "197110, г. Санкт-Петербург, ул. Петрозаводская, д. 13, лит. А",
+        "phone": "+7 (812) 235-50-66",
+        "site": "http://www.batp.ru",
+        "url": "http://vuz.edunetwork.ru/78/v757/",
+        "image": "sp/12.png",
+        "average_ege": "57.45",
+        "geo": "30.288487 59.965453"
+    },
+    {
+        "selection_committee": {
+            "address": "190000, г. Санкт-Петербург, ул. Якубовича, 26",
+            "phone": "+7 (812) 312-21-07",
+            "site": "http://portal.guap.ru/?n=priem",
+            "email": "priem@guap.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "ГУАП",
+        "name_long": "Санкт-Петербургский государственный университет аэрокосмического приборостроения",
+        "description": "",
+        "contact": "190000, г. Санкт-Петербург, ул. Большая Морская, д. 67, литера А",
+        "phone": "+7 (812) 710-65-10",
+        "site": "http://new.guap.ru",
+        "url": "http://vuz.edunetwork.ru/78/v547/",
+        "image": "sp/13.png",
+        "average_ege": "68.90",
+        "geo": "30.296671 59.929556"
+    },
+    {
+        "selection_committee": {
+            "address": "190000, г. Санкт-Петербург, ул. Глинки, д. 2",
+            "phone": "+7 (812) 312-21-29",
+            "site": "http://www.conservatory.ru/education/abiturientam",
+            "email": "abiturient@conservatory.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "СпбГК",
+        "name_long": "Санкт-Петербургская государственная консерватория им. Н.А.Римского-Корсакова",
+        "description": "",
+        "contact": "190000, г. Санкт-Петербург, ул. Глинки, д. 2",
+        "phone": "+7 (812) 312-21-29",
+        "site": "http://www.conservatory.ru",
+        "url": "http://vuz.edunetwork.ru/78/v554/",
+        "image": "sp/14.png",
+        "average_ege": "70.83",
+        "geo": "30.296159 59.927473"
+    },
+    {
+        "selection_committee": {
+            "address": "190121, г. Санкт-Петербург, ул. Декабристов, д. 35",
+            "phone": "+7 (812) 714-06-74",
+            "site": "http://www.lesgaft.spb.ru/ru/commission/priyomnaya-komissiya",
+            "email": "abiturientlesgaft@lesgaft.spb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "НГУ им. П.Ф. Лесгафта",
+        "name_long": "Национальный государственный университет физической культуры, спорта и здоровья им. П.Ф. Лесгафта",
+        "description": "",
+        "contact": "190121, г. Санкт-Петербург, ул. Декабристов, д. 35",
+        "phone": "+7 (812) 714-40-13",
+        "site": "http://lesgaft.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v551/",
+        "image": "sp/15.png",
+        "average_ege": "60.37",
+        "geo": "30.29023 59.925421"
+    },
+    {
+        "selection_committee": {
+            "address": "198035, г. Санкт-Петербург, ул. Двинская, д. 5/7, ауд. 115, 251, 264, 266",
+            "phone": "+7 (812) 748-97-12+7 (812) 748-97-09",
+            "site": "http://abitur.gumrf.ru",
+            "email": "pk_byud@gumrf.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 10:00 до 16:45Пт. c 10:00 до 16:00"
+        },
+        "name_short": "ГУМРФ",
+        "name_long": "Государственный университет морского и речного флота им. С.О. Макарова",
+        "description": "",
+        "contact": "198035, г. Санкт-Петербург, ул. Двинская, д. 5/7",
+        "phone": "+7 (812) 748-96-92",
+        "site": "http://gumrf.ru",
+        "url": "http://vuz.edunetwork.ru/78/v125/",
+        "image": "sp/16.png",
+        "average_ege": "61.32",
+        "geo": "30.251073 59.909346"
+    },
+    {
+        "selection_committee": {
+            "address": "194064, г. Санкт-Петербург, Тихорецкий проспект, д. 3",
+            "phone": "+7 (812) 247-93-25+7 (812) 247-98-35",
+            "site": "http://vas.mil.ru/Postupayuschim",
+            "email": "vas_umo@mil.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "ВАС",
+        "name_long": "Военная академия связи им. С.М. Буденного",
+        "description": "",
+        "contact": "194064, г. Санкт-Петербург, Тихорецкий проспект, д. 3",
+        "phone": "+7 (812) 247-98-35",
+        "site": "http://vas.mil.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2581/",
+        "image": "sp/17.png",
+        "average_ege": "",
+        "geo": "30.374007 60.011028"
+    },
+    {
+        "selection_committee": {
+            "address": "190121, г. Санкт-Петербург, Ленинский пр., 101",
+            "phone": "+7 (812) 757-16-77+7 (812) 757-22-00",
+            "site": "http://www.smtu.ru/ru/admission/",
+            "email": "priem@smtu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "СПбГМТУ",
+        "name_long": "Санкт-Петербургский государственный морской технический университет",
+        "description": "",
+        "contact": "190121, г. Санкт-Петербург, Ленинский пр., 101",
+        "phone": "+7 (812) 495-26-48",
+        "site": "http://www.smtu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v566/",
+        "image": "sp/18.png",
+        "average_ege": "59.36",
+        "geo": "30.224321 59.850988"
+    },
+    {
+        "selection_committee": {
+            "address": "195027, г. Санкт-Петербург, ул. Якорная, д. 9а, лит. А, каб. 42а",
+            "phone": "+7 (800) 505-23-18+7 (812) 309-22-65+7 (812) 309-55-04",
+            "site": "http://nwotu.ru/postupayushim",
+            "email": "info@nwotu.ru",
+            "work_time": "Пн., Чт. c 12:00 до 19:00 42аВт., Ср., Пт. c 10:00 до 16:00 42а"
+        },
+        "name_short": "СЗТУ",
+        "name_long": "Северо-Западный открытый технический университет",
+        "description": "",
+        "contact": "195027, г. Санкт-Петербург, ул. Якорная, д. 9а, лит. А",
+        "phone": "+7 (800) 505-23-18",
+        "site": "http://nwotu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v592/",
+        "image": "sp/19.png",
+        "average_ege": "51.85",
+        "geo": "30.427807 59.942755"
+    },
+    {
+        "selection_committee": {
+            "address": "197183, г. Санкт-Петербург, ул. Сестрорецкая, д. 6",
+            "phone": "+7 (800) 200-33-43+7 (812) 430-60-40",
+            "site": "http://noironline.ru/abitur/",
+            "email": "info@noironline.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 19:00Сб. c 10:00 до 17:00"
+        },
+        "name_short": "НОИ СПб",
+        "name_long": "Национальный открытый институт",
+        "description": "",
+        "contact": "197183, г. Санкт-Петербург, ул. Сестрорецкая, д. 6",
+        "phone": "+7 (800) 200-33-43",
+        "site": "http://www.noironline.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2188/",
+        "image": "sp/20.png",
+        "average_ege": "52.10",
+        "geo": "30.289943 59.98661"
+    },
+    {
+        "selection_committee": {
+            "address": "196601, г. Санкт-Петербург, г. Пушкин, ул. Малая, д. 8",
+            "phone": "+7 (812) 465-68-84",
+            "site": "http://www.xn--90anvaal.xn--p1ai/abiturientam/",
+            "email": "ipp.info@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:30"
+        },
+        "name_short": "ИПП",
+        "name_long": "Институт правоведения и предпринимательства",
+        "description": "",
+        "contact": "196601, г. Санкт-Петербург, г. Пушкин, ул. Малая, д. 8",
+        "phone": "+7 (812) 470-08-00",
+        "site": "http://www.xn--90anvaal.xn--p1ai",
+        "url": "http://vuz.edunetwork.ru/78/v200/",
+        "image": "sp/21.png",
+        "average_ege": "64.49",
+        "geo": "30.397336 59.720944"
+    },
+    {
+        "selection_committee": {
+            "address": "191028, г. Санкт-Петербург, ул. Моховая, д. 33-35 (вход со двора)",
+            "phone": "+7 (812) 273-10-72",
+            "site": "http://www.rgisi.ru/priemnaya-komissiya",
+            "email": "pk@rgisi.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 17:00"
+        },
+        "name_short": "РГИСИ",
+        "name_long": "Российский государственный институт сценических искусств",
+        "description": "",
+        "contact": "191028, г. Санкт-Петербург, ул. Моховая, д. 34",
+        "phone": "+7 (812) 273-15-81",
+        "site": "http://www.rgisi.ru",
+        "url": "http://vuz.edunetwork.ru/78/v550/",
+        "image": "sp/22.png",
+        "average_ege": "77.77",
+        "geo": "30.34553 59.940654"
+    },
+    {
+        "selection_committee": {
+            "address": "197376, г. Санкт-Петербург, ул. Профессора Попова, д. 14, 2 этаж, каб 21",
+            "phone": "+7 (812) 499-39-20",
+            "site": "http://abiturient.pharminnotech.com/events",
+            "email": "admission@pharminnotech.com",
+            "work_time": "Пн., Вт., Ср., Чт., Пт., Сб. c 10:00 до 16:00"
+        },
+        "name_short": "СПХФА",
+        "name_long": "Санкт-Петербургская государственная химико-фармацевтическая академия",
+        "description": "",
+        "contact": "197376, г. Санкт-Петербург, ул. Профессора Попова, д. 14",
+        "phone": "+7 (812) 499-39-00",
+        "site": "http://www.spcpa.ru",
+        "url": "http://vuz.edunetwork.ru/78/v557/",
+        "image": "sp/23.png",
+        "average_ege": "76.22",
+        "geo": "30.31082 59.970943"
+    },
+    {
+        "selection_committee": {
+            "address": "194021, г. Санкт-Петербург, Институтский переулок, д. 5, учебный корпус №2, 3 этаж",
+            "phone": "+7 (812) 670-92-97",
+            "site": "http://spbftu.ru/abitur/",
+            "email": "pricomlt@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "СПбГЛТУ",
+        "name_long": "Санкт-Петербургский государственный лесотехнический университет им. С.М. Кирова",
+        "description": "ВУЗ образован в 1803 году как Царскосельский лесной институт, который в 1811 году из Царского села переведен в Санкт-Петербург и объединен с частным Лесным институтом графа Орлова, получив наименование Санкт-Петербургский форст-институт.",
+        "contact": "194021, г. Санкт-Петербург, Институтский переулок, д. 5, литер У",
+        "phone": "+7 (812) 670-92-46",
+        "site": "http://spbftu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v559/",
+        "image": "sp/24.png",
+        "average_ege": "59.38",
+        "geo": "30.34447 59.994337"
+    },
+    {
+        "selection_committee": {
+            "address": "190013, г. Санкт-Петербург, Московский просп., д. 26",
+            "phone": "+7 (812) 316-13-12",
+            "site": "http://technolog.edu.ru/abiturientu.html",
+            "email": "abitur@technolog.edu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00Сб. c 10:00 до 14:00"
+        },
+        "name_short": "СПбГТИ(ТУ)",
+        "name_long": "Санкт-Петербургский государственный технологический институт",
+        "description": "",
+        "contact": "190013, г. Санкт-Петербург, Московский просп., д. 26",
+        "phone": "+7 (812) 494-92-99",
+        "site": "http://technolog.edu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v568/",
+        "image": "sp/25.png",
+        "average_ege": "67.30",
+        "geo": "30.318886 59.917506"
+    },
+    {
+        "selection_committee": {
+            "address": "197101, г. Санкт-Петербург, ул. Большая Пушкарская, д.35, 1 этаж, каб. 101",
+            "phone": "+7 (812) 237-17-56+7 (812) 405-88-59",
+            "site": "http://www.spbiem.ru/Abitur/uslovija-priema.html",
+            "email": "spbiem@yandex.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "СПбИЭУ",
+        "name_long": "Санкт-Петербургский институт экономики и управления",
+        "description": "",
+        "contact": "197101, г. Санкт-Петербург, ул. Большая Пушкарская, д.35",
+        "phone": "+7 (812) 232-00-45",
+        "site": "http://www.spbiem.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2134/",
+        "image": "sp/26.png",
+        "average_ege": "59.84",
+        "geo": "30.308834 59.961742"
+    },
+    {
+        "selection_committee": {
+            "address": "191186, г. Санкт-Петербург, наб. канала Грибоедова, д. 2, литера А, каб. 118",
+            "phone": "+7 (812) 710-48-21",
+            "site": "http://www.vshni.ru/mainmenu4.htm",
+            "email": "vshni_priem@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:30 до 19:00"
+        },
+        "name_short": "ВШНИ",
+        "name_long": "Высшая школа народных искусств",
+        "description": "",
+        "contact": "191186, г. Санкт-Петербург, наб. канала Грибоедова, д. 2, лит. А",
+        "phone": "+7 (812) 710-42-54",
+        "site": "http://www.vshni.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2660/",
+        "image": "sp/27.png",
+        "average_ege": "73.00",
+        "geo": "30.32893 59.940037"
+    },
+    {
+        "selection_committee": {
+            "address": "196105, г. Санкт-Петербург, Московский проспект, д. 149",
+            "phone": "+7 (812) 369-55-18+7 (812) 388-47-22+7 (812) 369-97-95",
+            "site": "http://www.igps.ru/category/14",
+            "email": "priemkom@igps.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "СпбУ ГПС МЧС России",
+        "name_long": "Санкт-Петербургский университет ГПС МЧС РФ",
+        "description": "",
+        "contact": "196105, г. Санкт-Петербург, Московский проспект, д. 149",
+        "phone": "+7 (812) 369-69-73",
+        "site": "http://www.igps.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2468/",
+        "image": "sp/28.png",
+        "average_ege": "",
+        "geo": "30.319192 59.874756"
+    },
+    {
+        "selection_committee": {
+            "address": "192012, г. Санкт-Петербург, пр. Обуховской обороны, д.114, лит. А",
+            "phone": "+7 (921) 951-34-33+7 (812) 677-00-07",
+            "site": "http://www.jurac.ru/priemnaya-komissiya.html",
+            "email": "priem@jurac.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00 106"
+        },
+        "name_short": "СЮА",
+        "name_long": "Санкт-Петербургская юридическая академия",
+        "description": "",
+        "contact": "192012, г. Санкт-Петербург, пр. Обуховской обороны, д.114, лит. А",
+        "phone": "+7 (812) 380-00-47",
+        "site": "http://jurac.ru",
+        "url": "http://vuz.edunetwork.ru/78/v1513/",
+        "image": "sp/29.png",
+        "average_ege": "67.72",
+        "geo": "30.470747 59.865876"
+    },
+    {
+        "selection_committee": {
+            "address": "194100, г. Санкт-Петербург, ул. Литовская, д. 2, лит. Е (корп. 15)",
+            "phone": "+7 (812) 416-54-44",
+            "site": "http://gpmu.org/education/entrants/",
+            "email": "gpmu_priem@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 17:30"
+        },
+        "name_short": "СПбГПМУ",
+        "name_long": "Санкт-Петербургский государственный педиатрический медицинский университет",
+        "description": "",
+        "contact": "194100, г. Санкт-Петербург, ул. Литовская, д. 2",
+        "phone": "+7 (812) 542-39-83",
+        "site": "http://gpmu.org",
+        "url": "http://vuz.edunetwork.ru/78/v556/",
+        "image": "sp/30.png",
+        "average_ege": "77.68",
+        "geo": "30.340177 59.977962"
+    },
+    {
+        "selection_committee": {
+            "address": "190005, г. Санкт-Петербург, Московский пр., д. 29",
+            "phone": "+7 (812) 316-20-26+7 (812) 316-11-23",
+            "site": "http://www.spbgasu.ru/Abiturientam/",
+            "email": "prc@spbgasu.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 10:00 до 19:00Пт. c 10:00 до 18:00"
+        },
+        "name_short": "СПбГАСУ",
+        "name_long": "Санкт-Петербургский государственный архитектурно-строительный университет",
+        "description": "",
+        "contact": "190005, г. Санкт-Петербург, ул. 2-я Красноармейская, д. 4",
+        "phone": "+7 (812) 575-05-34",
+        "site": "http://www.spbgasu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v562/",
+        "image": "sp/31.png",
+        "average_ege": "66.37",
+        "geo": "30.316883 59.915188"
+    },
+    {
+        "selection_committee": {
+            "address": "193232, г. Санкт-Петербург, пр. Большевиков, д. 22, корп. 1, каб. 124/1",
+            "phone": "+7 (812) 305-12-18+7 (812) 331-21-49+7 (812) 326-31-51",
+            "site": "http://priem.sut.ru",
+            "email": "pk@sut.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 10:00 до 17:00 124/1Пт. c 10:00 до 16:00"
+        },
+        "name_short": "СПбГУТ",
+        "name_long": "Санкт-Петербургский государственный университет телекоммуникаций им. М.А. Бонч-Бруевича",
+        "description": "",
+        "contact": "193232, г. Санкт-Петербург, пр. Большевиков, д. 22, корп. 1",
+        "phone": "+7 (812) 326-31-50",
+        "site": "http://www.sut.ru",
+        "url": "http://vuz.edunetwork.ru/78/v572/",
+        "image": "sp/32.png",
+        "average_ege": "64.25",
+        "geo": "30.488264 59.902655"
+    },
+    {
+        "selection_committee": {
+            "address": "191186, г. Санкт-Петербург, ул. Большая Морская, д. 18, этаж 1, ком. 134",
+            "phone": "+7 (812) 315-07-47+7 (812) 571-81-49",
+            "site": "http://prouniver.ru",
+            "email": "priemcom@sutd.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт., Сб. c 11:00 до 18:00"
+        },
+        "name_short": "СПбГУПТД",
+        "name_long": "Санкт-Петербургский государственный университет промышленных технологий и дизайна",
+        "description": "",
+        "contact": "191186, г. Санкт-Петербург, ул. Большая Морская, д. 18",
+        "phone": "+7 (812) 315-75-25",
+        "site": "http://sutd.ru",
+        "url": "http://vuz.edunetwork.ru/78/v573/",
+        "image": "sp/33.png",
+        "average_ege": "66.59",
+        "geo": "30.316048 59.93484"
+    },
+    {
+        "selection_committee": {
+            "address": "194044, г. Санкт-Петербург, ул. Академика Лебедева, д. 6, лит. Е",
+            "phone": "+7 (812) 292-32-66",
+            "site": "http://www.vmeda.org/postupayushhim/priemkommisia/",
+            "email": "post@www.vmeda.spb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 17:00"
+        },
+        "name_short": "ВмедА",
+        "name_long": "Военно-медицинская академия им. С.М. Кирова",
+        "description": "",
+        "contact": "194044, г. Санкт-Петербург, ул. Академика Лебедева, д. 6",
+        "phone": "+7 (812) 292-32-55",
+        "site": "http://www.vmeda.org",
+        "url": "http://vuz.edunetwork.ru/78/v2564/",
+        "image": "sp/34.png",
+        "average_ege": "",
+        "geo": "30.346671 59.95848"
+    },
+    {
+        "selection_committee": {
+            "address": "198206, г. Санкт-Петербург, Летчика Пилютова д. 1",
+            "phone": "+7 (812) 744-13-62",
+            "site": "http://xn--b1agajc0ayikbb.xn--b1aew.xn--p1ai/Postuplenie/kandidatam-na-obuchenie",
+            "email": "priem@univermvd.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 09:00 до 17:30"
+        },
+        "name_short": "СПбУ МВД РФ",
+        "name_long": "Санкт-Петербургский университет МВД РФ",
+        "description": "",
+        "contact": "198206, г. Санкт-Петербург, ул. Летчика Пилютова, д. 1",
+        "phone": "+7 (812) 744-70-27",
+        "site": "http://univer.mvd.ru",
+        "url": "http://vuz.edunetwork.ru/78/v773/",
+        "image": "sp/35.png",
+        "average_ege": "",
+        "geo": "30.13828 59.844836"
+    },
+    {
+        "selection_committee": {
+            "address": "199034, г. Санкт-Петербург, наб. Макарова, д. 8",
+            "phone": "+7 (812) 328-93-33+7 (812) 328-93-38+7 (812) 328-88-72",
+            "site": "http://vamto.net/abiturient/",
+            "email": "vatt@mil.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "ВА МТО",
+        "name_long": "Военная академия материально-технического обеспечения им. А.В. Хрулева",
+        "description": "",
+        "contact": "199034, г. Санкт-Петербург, наб. Макарова, д. 8",
+        "phone": "+7 (812) 328-93-33",
+        "site": "http://vamto.net",
+        "url": "http://vuz.edunetwork.ru/78/v2566/",
+        "image": "sp/36.png",
+        "average_ege": "",
+        "geo": "30.296581 59.945188"
+    },
+    {
+        "selection_committee": {
+            "address": "191023, г. Санкт-Петербург, ул. Зодчего Росси, д. 2",
+            "phone": "+7 (812) 456-07-65",
+            "site": "http://vaganovaacademy.ru/index.php?id=702",
+            "email": "priem@vaganovaacademy.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "АРб им. А. Я. Вагановой",
+        "name_long": "Академия Русского балета им. А.Я. Вагановой",
+        "description": "",
+        "contact": "191023, г. Санкт-Петербург, ул. Зодчего Росси, д. 2",
+        "phone": "+7 (812) 456-07-65",
+        "site": "http://vaganovaacademy.ru",
+        "url": "http://vuz.edunetwork.ru/78/v11/",
+        "image": "sp/37.png",
+        "average_ege": "71.57",
+        "geo": "30.336071 59.930534"
+    },
+    {
+        "selection_committee": {
+            "address": "199034, г. Санкт-Петербург, 17-я Линия В.О., д. 4-6",
+            "phone": "+7 (812) 309-44-00",
+            "site": "http://www.buflic.org/abitur/priemnaya-komissiya",
+            "email": "priem@buflic.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "БИИЯМС",
+        "name_long": "Балтийский институт иностранных языков и межкультурного сотрудничества",
+        "description": "",
+        "contact": "199034, г. Санкт-Петербург, 17-я Линия В.О., д. 4-6",
+        "phone": "+7 (812) 327-88-90",
+        "site": "http://www.buflic.org",
+        "url": "http://vuz.edunetwork.ru/78/v39/",
+        "image": "sp/38.png",
+        "average_ege": "64.45",
+        "geo": "30.273342 59.933568"
+    },
+    {
+        "selection_committee": {
+            "address": "199034, г. Санкт-Петербург, 17-я линия Васильевского Острова, д. 4-6",
+            "phone": "+7 (812) 309-09-99+7 (812) 327-60-94",
+            "site": "http://buepl.ru/abitur",
+            "email": "priem@buepl.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 19:00"
+        },
+        "name_short": "БИЭПП",
+        "name_long": "Балтийский институт экологии, политики и права",
+        "description": "",
+        "contact": "199034, г. Санкт-Петербург, 17-я линия Васильевского Острова, д. 4-6",
+        "phone": "+7 (812) 327-71-07",
+        "site": "http://buepl.ru",
+        "url": "http://vuz.edunetwork.ru/78/v40/",
+        "image": "sp/39.png",
+        "average_ege": "63.23",
+        "geo": "30.273342 59.933568"
+    },
+    {
+        "selection_committee": {
+            "address": "195067, г. Санкт-Петербург, Пискаревский пр., д. 47, павильон 9",
+            "phone": "+7 (812) 303-50-53",
+            "site": "http://szgmu.ru/rus/m/33/",
+            "email": "dovuz@spbmapo.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "СЗГМУ",
+        "name_long": "Северо-Западный государственный медицинский университет им.И.И. Мечникова",
+        "description": "",
+        "contact": "191015, г. Санкт-Петербург, ул. Кирочная, д. 41",
+        "phone": "+7 (812) 303-50-00",
+        "site": "http://szgmu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v555/",
+        "image": "sp/40.png",
+        "average_ege": "74.64",
+        "geo": "30.371519 59.943471"
+    },
+    {
+        "selection_committee": {
+            "address": "196605, г. Санкт-Петербург, Петербургское шоссе, д.10",
+            "phone": "+7 (812) 465-66-99+7 (812) 451-94-42+7 (812) 451-94-44",
+            "site": "http://lengu.ru/abitur",
+            "email": "pushkin@lengu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 17:00Сб. c 09:00 до 14:00"
+        },
+        "name_short": "ЛГУ",
+        "name_long": "Ленинградский государственный университет им. А.С. Пушкина",
+        "description": "",
+        "contact": "196605, г. Санкт-Петербург, г. Пушкин, Петербургское шоссе, д. 10",
+        "phone": "+7 (812) 466-65-58",
+        "site": "http://www.lengu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v303/",
+        "image": "sp/41.png",
+        "average_ege": "68.26",
+        "geo": "30.388686 59.73945"
+    },
+    {
+        "selection_committee": {
+            "address": "199034, г. Санкт-Петербург, Университетская наб., д. 17",
+            "phone": "+7 (812) 323-67-77+7 (921) 859-47-08",
+            "site": "http://www.artsacademy.ru/applicants/the_admissions_committee",
+            "email": "repinpriem@gmail.com",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:30 до 17:00"
+        },
+        "name_short": "СПб ГАИЖСА",
+        "name_long": "Санкт-Петербургский государственный академический институт живописи, скульптуры и архитектуры им. И.Е. Репина",
+        "description": "",
+        "contact": "199034, г. Санкт-Петербург, Университетская наб., д. 17",
+        "phone": "+7 (812) 323-61-89",
+        "site": "http://www.artsacademy.ru",
+        "url": "http://vuz.edunetwork.ru/78/v560/",
+        "image": "sp/42.png",
+        "average_ege": "73.08",
+        "geo": "30.290257 59.937495"
+    },
+    {
+        "selection_committee": {
+            "address": "191104, г. Санкт-Петербург, Литейный пр., д. 42",
+            "phone": "+7 (812) 272-80-55",
+            "site": "http://ivesep.spb.ru/abitur/",
+            "email": "student@ivesep.spb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт., Сб. c 08:30 до 19:00"
+        },
+        "name_short": "ИВЭСЭП",
+        "name_long": "Санкт-Петербургский институт внешнеэкономических связей, экономики и права",
+        "description": "",
+        "contact": "191104, г. Санкт-Петербург, Литейный пр., д. 42",
+        "phone": "+7 (812) 273-20-49",
+        "site": "http://ivesep.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v576/",
+        "image": "sp/43.png",
+        "average_ege": "58.85",
+        "geo": "30.348836 59.938306"
+    },
+    {
+        "selection_committee": {
+            "address": "199178, г. Санкт-Петербург, 12 линия В.О., дом 13 лит. А",
+            "phone": "+7 (812) 323-07-70",
+            "site": "http://psysocwork.ru/postuplenie/",
+            "email": "info@gipsr.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "СПбГИПСР",
+        "name_long": "Санкт-Петербургский государственный институт психологии и социальной работы",
+        "description": "",
+        "contact": "199178, г. Санкт-Петербург, 12 линия В.О., д. 13, лит. А",
+        "phone": "+7 (812) 323-07-84",
+        "site": "http://www.psysocwork.ru",
+        "url": "http://vuz.edunetwork.ru/78/v580/",
+        "image": "sp/44.png",
+        "average_ege": "62.81",
+        "geo": "30.274267 59.938482"
+    },
+    {
+        "selection_committee": {
+            "address": "197045, г. Санкт-Петербург, Ушаковская наб. д.17/1",
+            "phone": "+7 (812) 431-94-78+7 (812) 465-27-00+7 (981) 810-18-90",
+            "site": "http://xn--b1amlm.xn--p1ai/pamyatka-abiturientu/",
+            "email": "g.s.tihonov@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "ВУНЦ ВМФ ВМА",
+        "name_long": "Военный учебно-научный центр ВМФ ВМА им. Н.Г. Кузнецова",
+        "description": "",
+        "contact": "197045, г. Санкт-Петербург, Ушаковская наб. д.17/1",
+        "phone": "+7 (812) 431-94-78",
+        "site": "http://вмпи.рф",
+        "url": "http://vuz.edunetwork.ru/78/v2639/",
+        "image": "sp/45.png",
+        "average_ege": "",
+        "geo": "30.30375 59.984067"
+    },
+    {
+        "selection_committee": {
+            "address": "198206, г. Санкт-Петербург, ул. Летчика Пилютова, д. 1",
+            "phone": "+7 (812) 680-24-30",
+            "site": "http://spvi.ru/?page_id=19",
+            "email": "info@spvi.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 08:30 до 17:30"
+        },
+        "name_short": "СПВИ РФ",
+        "name_long": "Санкт-Петербургский военный институт войск национальной гвардии РФ",
+        "description": "",
+        "contact": "198206, г. Санкт-Петербург, ул. Летчика Пилютова, д. 1",
+        "phone": "+7 (812) 680-24-30",
+        "site": "http://www.spvi.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2664/",
+        "image": "sp/46.png",
+        "average_ege": "",
+        "geo": "30.13828 59.844836"
+    },
+    {
+        "selection_committee": {
+            "address": "193031, г. Санкт-Петербург, ул. 1-я Советская, д. 10, литер К, 2 этаж, пом. 204",
+            "phone": "+7 (812) 449-52-51+7 (950) 027-98-06",
+            "site": "http://pijs.ru/priyemnaya-kampaniya-2019-g",
+            "email": "academic@pijs.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 10:30 до 17:30Пт. c 10:30 до 16:00"
+        },
+        "name_short": "ПИИ",
+        "name_long": "Петербургский институт иудаики",
+        "description": "",
+        "contact": "193031, г. Санкт-Петербург, ул. 1-я Советская, д. 10, литер К, помещение 1-Н",
+        "phone": "+7 (812) 717-15-20",
+        "site": "http://www.pijs.ru",
+        "url": "http://vuz.edunetwork.ru/78/v1189/",
+        "image": "sp/47.png",
+        "average_ege": "68.50",
+        "geo": "30.365293 59.931801"
+    },
+    {
+        "selection_committee": {
+            "address": "198188, г. Санкт-Петербург, пр. Стачек, д. 72, лит. А",
+            "phone": "+7 (812) 647-63-14+7 (800) 770-03-80",
+            "site": "http://bhi.spb.ru/abiturientu",
+            "email": "info@bhi.spb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 19:00"
+        },
+        "name_short": "БГИ",
+        "name_long": "Балтийский гуманитарный институт",
+        "description": "",
+        "contact": "198188, г. Санкт-Петербург, пр. Стачек, д. 72, лит. А",
+        "phone": "+7 (800) 770-03-80",
+        "site": "http://bhi.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v3247/",
+        "image": "sp/48.png",
+        "average_ege": "51.00",
+        "geo": "30.262859 59.878382"
+    },
+    {
+        "selection_committee": {
+            "address": "197198, г. Санкт-Петербург, ул. Ждановская, д. 13",
+            "phone": "+7 (812) 347-97-70+7 (812) 347-96-46",
+            "site": "http://vka.mil.ru/Postupayushhim",
+            "email": "vka@mil.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "ВКА им. А.Ф.Можайского",
+        "name_long": "Военно-космическая академия им. А.Ф. Можайского",
+        "description": "",
+        "contact": "197198, г. Санкт-Петербург, ул. Ждановская, д. 13",
+        "phone": "+7 (812) 347-97-70",
+        "site": "http://vka.mil.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2510/",
+        "image": "sp/49.png",
+        "average_ege": "",
+        "geo": "30.28369 59.956318"
+    },
+    {
+        "selection_committee": {
+            "address": "190031, г. Санкт-Петербург, Московский пр., д. 9",
+            "phone": "+7 (812) 457-82-42+7 (800) 200-97-90",
+            "site": "http://priem.pgups.ru",
+            "email": "primkom@pgups.edu",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:30 до 17:00Сб. c 09:30 до 13:00"
+        },
+        "name_short": "ПГУПС",
+        "name_long": "Петербургский государственный университет путей сообщения Императора Александра I",
+        "description": "",
+        "contact": "190031, г. Санкт-Петербург, Московский пр., д. 9",
+        "phone": "+7 (812) 315-26-21",
+        "site": "http://www.pgups.ru",
+        "url": "http://vuz.edunetwork.ru/78/v481/",
+        "image": "sp/50.png",
+        "average_ege": "57.05",
+        "geo": "30.31718 59.924028"
+    },
+    {
+        "selection_committee": {
+            "address": "197198, г. Санкт-Петербург, Большой пр. П.С. д. 18-А",
+            "phone": "+7 (800) 333-37-76+7 (812) 235-11-39",
+            "site": "http://eeip.ru/abit.html",
+            "email": "abit.eeip@gmail.com",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "ВЕИП",
+        "name_long": "Восточно-Европейский институт психоанализа",
+        "description": "",
+        "contact": "197198, г. Санкт-Петербург, Большой пр. П.С., д. 18, лит. А",
+        "phone": "+7 (800) 333-37-76",
+        "site": "http://eeip.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2032/",
+        "image": "sp/51.png",
+        "average_ege": "68.03",
+        "geo": "30.294713 59.955309"
+    },
+    {
+        "selection_committee": {
+            "address": "191186, г. Санкт-Петербург, набережная реки Мойки, д. 48, корп. 6, комн. 19",
+            "phone": "+7 (812) 643-77-66",
+            "site": "http://www.herzen.spb.ru/abitur/",
+            "email": "pk@herzen.spb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "РГПУ им. А.И. Герцена",
+        "name_long": "Российский государственный педагогический университет им. А.И. Герцена",
+        "description": "",
+        "contact": "191186, г. Санкт-Петербург, набережная реки Мойки, д. 48",
+        "phone": "+7 (812) 312-44-92",
+        "site": "http://www.herzen.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v514/",
+        "image": "sp/52.png",
+        "average_ege": "67.07",
+        "geo": "30.319946 59.934452"
+    },
+    {
+        "selection_committee": {
+            "address": "197022, г. Санкт-Петербург, ул. Льва Толстого, д. 6/8",
+            "phone": "+7 (812) 338-71-12",
+            "site": "http://1spbgmu.ru/ru/obrazovanie/priemnaya-komissiya",
+            "email": "priemkom@spb-gmu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 16:00Сб. c 10:00 до 14:00"
+        },
+        "name_short": "ПСПбГМУ",
+        "name_long": "Первый Санкт-Петербургский государственный медицинский университет имени академика И.П. Павлова",
+        "description": "",
+        "contact": "197022, г. Санкт-Петербург, ул. Льва Толстого, д. 6/8",
+        "phone": "+7 (812) 338-71-53",
+        "site": "http://1spbgmu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v565/",
+        "image": "sp/53.png",
+        "average_ege": "73.48",
+        "geo": "30.32186 59.965309"
+    },
+    {
+        "selection_committee": {
+            "address": "190020, г. Санкт-Петербург, ул. Лифляндская, д. 4, этаж 2, каб. 206",
+            "phone": "+7 (800) 500-89-42+7 (812) 339-44-73",
+            "site": "http://spbiir.ru/abiturientam/priemnaja-komissija/",
+            "email": "vuz-info@spbiir.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 19:00 229Сб. c 11:00 до 16:00"
+        },
+        "name_short": "CПбИИР",
+        "name_long": "Санкт-Петербургский институт искусств и реставрации",
+        "description": "",
+        "contact": "190020, г. Санкт-Петербург, ул. Лифляндская, д. 4",
+        "phone": "+7 (800) 500-89-42",
+        "site": "http://spbiir.ru",
+        "url": "http://vuz.edunetwork.ru/78/v3129/",
+        "image": "sp/54.png",
+        "average_ege": "55.57",
+        "geo": "30.26399 59.907902"
+    },
+    {
+        "selection_committee": {
+            "address": "191119, г. Санкт-Петербург, ул. Правды, 13",
+            "phone": "+7 (812) 315-74-83",
+            "site": "http://www.gukit.ru/abiturient/priem",
+            "email": "priem@gukit.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00"
+        },
+        "name_short": "СПбГИКиТ",
+        "name_long": "Санкт-Петербургский государственный институт кино и телевидения",
+        "description": "",
+        "contact": "191119, г. Санкт-Петербург, ул. Правды, 13",
+        "phone": "+7 (812) 315-72-85",
+        "site": "http://www.gukit.ru",
+        "url": "http://vuz.edunetwork.ru/78/v577/",
+        "image": "sp/55.png",
+        "average_ege": "69.32",
+        "geo": "30.339898 59.922165"
+    },
+    {
+        "selection_committee": {
+            "address": "199226, г. Санкт-Петербург, Тучков пер., д. 11/5",
+            "phone": "+7 (952) 240-30-14+7 (952) 320-97-33+7 (952) 320-99-21",
+            "site": "http://www.niyak.spb.ru",
+            "email": "abiturient-niyak@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 17:00"
+        },
+        "name_short": "НИЯК",
+        "name_long": "Невский институт языка и культуры",
+        "description": "",
+        "contact": "199226, г. Санкт-Петербург, Чкаловский проспект, д. 15, лит. А",
+        "phone": "+7 (812) 320-99-21",
+        "site": "http://www.niyak.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v2143/",
+        "image": "sp/56.png",
+        "average_ege": "",
+        "geo": "30.294012 59.962431"
+    },
+    {
+        "selection_committee": {
+            "address": "194021, г. Санкт-Петербург, ул. Хлопина, д. 8, корпус 3, лит. А",
+            "phone": "+7 (960) 233-73-96+7 (812) 448-69-80",
+            "site": "http://www.spbau.ru/cvo/priemcvo",
+            "email": "priem_bak@spbau.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "СпбАУ РАН",
+        "name_long": "Санкт-Петербургский национальный исследовательский Академический университет Российской академии наук",
+        "description": "",
+        "contact": "194021, г. Санкт-Петербург, ул. Хлопина, д. 8, корп. 3, лит. А",
+        "phone": "+7 (812) 297-21-45",
+        "site": "http://www.spbau.ru",
+        "url": "http://vuz.edunetwork.ru/78/v3234/",
+        "image": "sp/57.png",
+        "average_ege": "96.98",
+        "geo": "30.373243 60.003084"
+    },
+    {
+        "selection_committee": {
+            "address": "195248, г. Санкт-Петербург, пр. Энергетиков, д. 27",
+            "phone": "+7 (812) 622-24-81",
+            "site": "http://ispb.fsb.ru/oficialmaterials.html",
+            "email": "institute@spbfsb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "ИФСБ РФ",
+        "name_long": "Институт Федеральной службы безопасности РФ",
+        "description": "",
+        "contact": "195248, г. Санкт-Петербург, пр. Энергетиков, д. 27",
+        "phone": "+7 (812) 622-24-81",
+        "site": "http://ispb.fsb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v3236/",
+        "image": "sp/58.png",
+        "average_ege": "",
+        "geo": "30.438865 59.954092"
+    },
+    {
+        "selection_committee": {
+            "address": "195271, г. Санкт-Петербург, Кондратьевский пр.,  д. 72-А , 6 этаж (каб. 626)",
+            "phone": "+7 (812) 448-39-63+7 (812) 974-23-24",
+            "site": "http://medinstitut.org/priem-abiturientov-2017-2018-2/",
+            "email": "abiturient@medinstitut.org",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00 616"
+        },
+        "name_short": "СПбМСИ",
+        "name_long": "Санкт-Петербургский медико-социальный институт",
+        "description": "",
+        "contact": "195271, г. Санкт-Петербург, Кондратьевский пр. д.72 литер А",
+        "phone": "+7 (812) 448-39-63",
+        "site": "http://www.medinstitut.org",
+        "url": "http://vuz.edunetwork.ru/78/v3251/",
+        "image": "sp/59.png",
+        "average_ege": "71.97",
+        "geo": "30.400049 59.986164"
+    },
+    {
+        "selection_committee": {
+            "address": "199178, г. Санкт-Петербург, 12-я линия В.О., д. 13",
+            "phone": "+7 (812) 320-97-73+7 (812) 328-09-91",
+            "site": "http://www.ifl.ru/abiturientam/",
+            "email": "ifl@ifl.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 18:00"
+        },
+        "name_short": "ИИЯ",
+        "name_long": "Институт иностранных языков",
+        "description": "",
+        "contact": "199178, г. Санкт-Петербург, 12-я линия В.О., д. 13",
+        "phone": "+7 (812) 320-97-73",
+        "site": "http://www.ifl.ru",
+        "url": "http://vuz.edunetwork.ru/78/v188/",
+        "image": "sp/60.png",
+        "average_ege": "63.55",
+        "geo": "30.274267 59.938482"
+    },
+    {
+        "selection_committee": {
+            "address": "194156, г. Санкт-Петербург, проспект Энгельса, дом 42, лит. А, помещение 4.2 (4 этаж)",
+            "phone": "+7 (812) 331-99-60",
+            "site": "http://spig.spb.ru/entrant",
+            "email": "spig.spb@yandex.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "СПИГ",
+        "name_long": "Санкт-Петербургский институт гостеприимства",
+        "description": "",
+        "contact": "194156, г. Санкт-Петербург, пр. Энгельса, д. 42, лит. А",
+        "phone": "+7 (812) 331-99-60",
+        "site": "http://spig.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v1532/",
+        "image": "sp/61.png",
+        "average_ege": "68.80",
+        "geo": "30.323935 60.010551"
+    },
+    {
+        "selection_committee": {
+            "address": "195196, г. Санкт-Петербург, Малоохтинский проспект, дом 98, кабинет 421 (4-й этаж)",
+            "phone": "+7 (812) 372-50-91",
+            "site": "http://dovus.rshu.ru",
+            "email": "dovus@rshu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "РГГМУ",
+        "name_long": "Российский государственный гидрометеорологический университет",
+        "description": "",
+        "contact": "192007, г. Санкт-Петербург, Воронежская улица, дом 79",
+        "phone": "+7 (812) 633-01-82",
+        "site": "http://www.rshu.ru",
+        "url": "http://vuz.edunetwork.ru/78/v511/",
+        "image": "sp/62.png",
+        "average_ege": "59.39",
+        "geo": "30.342611 59.909278"
+    },
+    {
+        "selection_committee": {
+            "address": "195197, г. Санкт-Петербург, Полюстровский проспект, д. 59",
+            "phone": "+7 (812) 541-11-11+7 (981) 884-04-19",
+            "site": "http://smun.spb.ru/Abitur",
+            "email": "prkom@smun.spb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 17:00Сб. c 10:00 до 14:00"
+        },
+        "name_short": "СУРАО",
+        "name_long": "Смольный институт Российской академии образования",
+        "description": "",
+        "contact": "195197, г. Санкт-Петербург, Полюстровский проспект, д. 59",
+        "phone": "+7 (812) 540-69-84",
+        "site": "http://www.smun.spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v1785/",
+        "image": "sp/63.png",
+        "average_ege": "69.31",
+        "geo": "30.380843 59.97414"
+    },
+    {
+        "selection_committee": {
+            "address": "195251, г. Санкт-Петербург, ул. Гидротехников, д. 5",
+            "phone": "+7 (812) 775-05-30+7 (800) 707-18-99",
+            "email": "abitur@spbstu.ru",
+            "work_time": "Пн., Вт., Ср., Чт. c 09:00 до 18:00Пт. c 09:00 до 17:00"
+        },
+        "name_short": "СПбПУ",
+        "name_long": "Санкт-Петербургский политехнический университет Петра Великого",
+        "description": "",
+        "contact": "195251, г. Санкт-Петербург, ул. Политехническая, д. 29",
+        "phone": "+7 (800) 707-18-99",
+        "url": "http://vuz.edunetwork.ru/78/v567/",
+        "image": "sp/64.png",
+        "average_ege": "74.23",
+        "geo": "30.3731 60.007461"
+    },
+    {
+        "selection_committee": {
+            "address": "191023, г. Санкт-Петербург, Наб. реки Фонтанки, 15",
+            "phone": "+7 (812) 334-14-41+7 (812) 314-35-21",
+            "email": "abiturient@rhga.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00 401 ауд"
+        },
+        "name_short": "РХГА",
+        "name_long": "Русская христианская гуманитарная академия",
+        "description": "",
+        "contact": "191023, г. Санкт-Петербург, наб.реки Фонтанки, дом 15, литер А",
+        "phone": "+7 (812) 334-14-41",
+        "url": "http://vuz.edunetwork.ru/78/v528/",
+        "image": "sp/65.png",
+        "average_ege": "60.55",
+        "geo": "30.343042 59.936192"
+    },
+    {
+        "selection_committee": {
+            "address": "197376, г. Санкт-Петербург, Профессора Попова д. 5, корпус 5",
+            "phone": "+7 (812) 325-87-05+7 (812) 346-29-23",
+            "email": "prcom@etu.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 16:00 5313"
+        },
+        "name_short": "СПбГЭТУ",
+        "name_long": "Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им.В.И.Ульянова (Ленина)",
+        "description": "",
+        "contact": "197376, г. Санкт-Петербург, ул. Профессора Попова, д. 5",
+        "phone": "+7 (812) 346-44-87",
+        "url": "http://vuz.edunetwork.ru/78/v574/",
+        "image": "sp/66.png",
+        "average_ege": "75.26",
+        "geo": "30.324294 59.971942"
+    },
+    {
+        "selection_committee": {
+            "address": "194044, г. Санкт-Петербург, ул. Смолячкова, д. 16/1",
+            "phone": "+7 (812) 542-86-88",
+            "email": "miep.priem@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "Университет при МПА ЕврАзЭС",
+        "name_long": "Университет при Межпарламентской Ассамблее ЕврАзЭС",
+        "description": "МИЭП при МПА ЕврАзЭС (полное название «Межрегиональный институт экономики и права при Межпарламентской Ассамблее ЕврАзЭС) является автономной некоммерческой образовательной организацией высшего профессионального образования. Основан в 1997 году в Санкт-Петербурге на базе Северо-Западного регионального юридического центра.",
+        "contact": "194044, г. Санкт-Петербург, ул. Смолячкова, д. 14/1",
+        "phone": "+7 (812) 542-38-80",
+        "url": "http://vuz.edunetwork.ru/78/v2429/",
+        "image": "sp/67.png",
+        "average_ege": "58.91",
+        "geo": "30.345584 59.971425"
+    },
+    {
+        "selection_committee": {
+            "address": "199106, г. Санкт-Петербург, ул. Гаванская, д. 3",
+            "phone": "+7 (812) 325-46-25",
+            "site": "http://lawinst-spb.ru/abiturientam",
+            "email": "lawinst-spb@mail.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00"
+        },
+        "name_short": "ЮИ",
+        "name_long": "Юридический институт",
+        "description": "",
+        "contact": "199106, г. Санкт-Петербург, ул. Гаванская, д. 3",
+        "phone": "+7 (812) 325-46-25",
+        "site": "http://lawinst-spb.ru",
+        "url": "http://vuz.edunetwork.ru/78/v743/",
+        "image": "sp/68.png",
+        "average_ege": "58.50",
+        "geo": "30.242512 59.928262"
+    },
+    {
+        "selection_committee": {
+            "address": "190000, г. Санкт-Петербург, 11 линия ВО, д.18, лит.А",
+            "phone": "+7 (812) 331-12-44+7 (812) 331-12-46",
+            "email": "mail@skspba.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 09:00 до 18:00"
+        },
+        "name_short": "СПБ АСК РФ",
+        "name_long": "Санкт-Петербургская академия Следственного комитета",
+        "description": "",
+        "contact": "190000, г. Санкт-Петербург, Набережная реки Мойки, д.96",
+        "phone": "+7 (812) 331-12-44",
+        "url": "http://vuz.edunetwork.ru/78/v3444/",
+        "image": "sp/69.png",
+        "average_ege": "",
+        "geo": "30.297507 59.928798"
+    },
+    {
+        "selection_committee": {
+            "address": "197101, г. Санкт-Петербург, Кронверкский проспект, д. 49",
+            "phone": "+7 (812) 457-18-58",
+            "email": "abit@cde.ifmo.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 17:00"
+        },
+        "name_short": "СпбНИУ ИТМО",
+        "name_long": "Санкт-Петербургский национальный исследовательский университет информационных технологий, механики и оптики",
+        "description": "",
+        "contact": "197101, г. Санкт-Петербург, Кронверкский проспект, д. 49",
+        "phone": "+7 (812) 232-97-04",
+        "url": "http://vuz.edunetwork.ru/78/v564/",
+        "image": "sp/70.png",
+        "average_ege": "86.44",
+        "geo": "30.309373 59.95616"
+    },
+    {
+        "selection_committee": {
+            "address": "199106, г. Санкт-Петербург, В.О., 21 линия д. 2",
+            "phone": "+7 (812) 328-89-02+7 (800) 550-14-34",
+            "email": "abitur@spmi.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 10:00 до 18:00Сб., Вс. c 10:00 до 16:00"
+        },
+        "name_short": "СПГУ",
+        "name_long": "Санкт-Петербургский горный университет",
+        "description": "",
+        "contact": "199106, г. Санкт-Петербург, 21-я линия, д.  2",
+        "phone": "+7 (812) 328-89-02",
+        "url": "http://vuz.edunetwork.ru/78/v563/",
+        "image": "sp/71.png",
+        "average_ege": "74.80",
+        "geo": "30.26894 59.930178"
+    },
+    {
+        "selection_committee": {
+            "address": "191023, г. Санкт-Петербург, Малая Садовая улица, дом 6, аудитория 31",
+            "phone": "+7 (812) 570-55-05+7 (800) 100-06-44",
+            "email": "dovuz@ibispb.ru",
+            "work_time": "Пн., Вт., Ср., Чт., Пт. c 11:00 до 19:00Сб. c 10:00 до 16:00"
+        },
+        "name_short": "МБИ",
+        "name_long": "Международный банковский институт",
+        "description": "",
+        "contact": "191023, г. Санкт-Петербург, Невский проспект, 60",
+        "phone": "+7 (812) 570-55-76",
+        "url": "http://vuz.edunetwork.ru/78/v317/",
+        "image": "sp/72.png",
+        "average_ege": "53.16",
+        "geo": "30.33917 59.93406"
+    }
+]

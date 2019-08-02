@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <link rel="Icon" type="image/png" href="/favicon.ico" /> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Страница не найдена (ошибка 404)</title>
+
+    <style type="text/css" media="all">
+        @import "http://static.edunetwork.ru/css/vuzMain.css"
+		#logo {
+			margin:20px 0 0 20px;
+		}
+		#main {
+			width:600px;
+			margin:0 auto;
+		}
+		#text {
+			margin-top:-83px;
+		}
+		#text a:link, #text a:visited {
+			color:#333;
+			text-decoration:underline;
+		}
+		#text a:hover {
+			color:#CD3728;
+			text-decoration:none;
+		}
+		ul {
+			margin-top:-14px;
+		}
+    </style>
+</head>
+<body>
+<div id="logo">
+	<a href="/"><img src="http://static.edunetwork.ru/imgs/logo/edunetwork.gif" alt="edunetwork logo" /></a>
+</div>
+<div id="main">
+	<img src="http://static.edunetwork.ru/imgs/logo/404/mirror.gif" alt="404 page not found" />
+	<div id="text">
+		<h3>К сожалению, запрашиваемой Вами страницы не существует.</h3>
+		<p>Возможно, это случилось по одной из указанных ниже причин:</p>
+		<ul>
+			<li>Вы ошиблись при наборе адреса страницы (URL)</li>
+		    <li>перешли по некорректной (неработающей, неправильной) ссылке</li>
+		    <li>запрашиваемой страницы никогда не было на сайте или она была удалена</li>
+		</ul>
+		<p>Мы просим прощение за доставленные неудобства и предлагаем следующие пути решения:</p>
+		<ul>
+			<li>вернуться на <a href="javascript::history.back()">предыдущую страницу</a></li>
+		    <li>проверить правильность написания адреса страницы (URL)</li>
+		    <li>перейти на <a href="/">главную страницу сайта</a></li>
+		</ul>    
+		<p>Если Вы уверены в правильности набранного адреса страницы и считаете, что эта ошибка произошла по нашей вине, пожалуйста, сообщите нам об этом при помощи электронной почты support<i>@</i>edunetwork.ru</p>
+	</div>
+</div>
+</body>
+</html>
