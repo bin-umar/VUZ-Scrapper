@@ -8,12 +8,11 @@ const cheerio = require('cheerio');
 const site = 'dostoprimechatelnosti';
 const directory = `results/${site}`;
 const filename = `results/${site}/list.json`;
-const filenameMoscow = `${directory}/uniivers-moscow.json`;
-const filenamePiter = `${directory}/uniivers-sp.json`;
+const fullListFile = `results/${site}/full-list.json`;
 
 const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 
-const JsonSaver = async () => {
+const getListOfObjects = async () => {
     bar.start(29 * 20, 0);
 
     const list = [];
@@ -49,33 +48,97 @@ const JsonSaver = async () => {
 };
 
 
-const GetFullPropertiesToJson = async (filetoSave) => {
+const GetFullPropertiesToJson = async () => {
     const file = fs.readFileSync(filename);
     const list = JSON.parse(file);
-    bar.start(list.length, 0);
+    bar.start(list.length, 97);
 
-    fs.writeFile(filetoSave, '[', () => null);
-    for (let i = 0; i < list.length; i++) {
+    for (let i = 97; i < list.length; i++) {
         try {
-            console.log(list[i].url.cyan.underline);
+            const {url, id} = list[i];
+            console.log(url.cyan.underline);
+
             const req = await rp({
-                uri: list[i].url
+                uri: url
             });
 
             if (req.body) {
                 const $ = cheerio.load(req.body);
+
+                let title = $('.heading h1').text().trim();
+                let subtitle = $('.heading p').first().text().trim();
+
+                let description = '';
+                let workingTime = '';
+                let contacts = '';
+                let price = '';
+                let location = '';
+                const photos = [];
+
+                $('.bodycopy p').each((_, p) => description += $(p).text().trim() + '\n');
+
+                const getNextText = (el) => $(el).next().text().trim();
+
+                $('.additions h2').each((_, h2) => {
+                    const header = $(h2).text().toLowerCase().replace(/\s+/g, '');
+                    switch (header) {
+                        case 'часыработы': workingTime = getNextText(h2); break;
+                        case 'адресиконтакты': contacts = getNextText(h2); break;
+                        case 'стоимостьпосещения': price = getNextText(h2); break;
+                        case 'pacположение': location = getNextText(h2); break;
+                    }
+                });
+
+                const dir = `${directory}/${id}`;
+                fs.mkdirSync(dir, {recursive: true});
+
+                $('.bodycopy img').each((_, img) => {
+                    let src = $(img).attr('src');
+                    if (src.substr(0, 2) === '//') {
+                        src = `https:${src}`;
+                    }
+
+                    if (!/^https?:\/\//.test(src)) {
+                        return;
+                    }
+
+                    const title = $(img).attr('alt');
+                    const splitUrl = src.split('/');
+                    const name = splitUrl[splitUrl.length - 1];
+
+                    if (name.includes('pinit') || !title || src.includes('maps')) {
+                        return;
+                    }
+
+                    const id = photos.findIndex((el) => el.name === name);
+                    if (id === -1) {
+                        photos.push({
+                            title,
+                            name
+                        });
+
+                        try {
+                            rp(src).pipe(fs.createWriteStream(`${dir}/${name}`));
+                        } catch (e) {
+                            console.error(`failed to get image ${name}`)
+                        }
+                    }
+                });
+
                 const object = {
-                    city: $('.choosecity span').eq(0).text().trim(),
-                    name_short: $('.choosevuz span').eq(0).text().trim(),
-                    name_long: $('.mainTitle').text().replace(/\s+/g,' ').trim(),
-                    description: $('.midVuztext').text().replace(/\s+/g,' ').trim(),
-                    contact: $('.specnoqqwe div').eq(1).text().trim(),
-                    url: $('.specnoqqwe div').eq(3).text().trim(),
+                    id,
+                    url,
+                    title,
+                    subtitle,
+                    description,
+                    workingTime,
+                    contacts,
+                    price,
+                    location,
+                    photos
                 };
 
-                fs.appendFile(filetoSave, JSON.stringify(object, null, 4) + ',\n', () =>
-                    console.log(`Successfully appended json`.yellow)
-                );
+                fs.writeFile(`${dir}/info.json`, JSON.stringify(object, null, 4), () => null);
             }
 
             bar.increment();
@@ -84,81 +147,38 @@ const GetFullPropertiesToJson = async (filetoSave) => {
         }
     }
 
-    fs.appendFile(filetoSave, ']', () => console.log('Finished scrapping'.yellow));
+    bar.stop();
+};
+
+const collectToOneFile = () => {
+    const file = fs.readFileSync(filename);
+    const list = JSON.parse(file);
+    bar.start(list.length, 0);
+
+    const objects = [];
+
+    for (let i = 0; i < list.length; i++) {
+        const {id} = list[i];
+        const objectJson = fs.readFileSync(`${directory}/${id}/info.json`);
+        const object = JSON.parse(objectJson);
+
+        objects.push(object);
+        bar.increment();
+    }
+
+    fs.writeFile(fullListFile, JSON.stringify(objects, null, 4), () => null);
     bar.stop();
 };
 
 const TestOne = async () => {
     try {
-        const req = await rp({
-            uri: `https://moscow.drugiegoroda.ru/attractions/3996-teremnoj-dvorec/`,
-            attempts: 3
-        });
-
-        const $ = cheerio.load(req.body);
-
-        let title = $('.heading h1').text().trim();
-        let subtitle = $('.heading p').first().text().trim();
-
-        let description = '';
-        let workingTime = '';
-        let contacts = '';
-        let price = '';
-        let location = '';
-        const photos = [];
-
-        $('.bodycopy p').each((_, p) => description += $(p).text().trim() + '\n');
-
-        const getNextText = (el) => $(el).next().text().trim();
-
-        $('.additions h2').each((_, h2) => {
-           const header = $(h2).text().toLowerCase().replace(/\s+/g, '');
-           switch (header) {
-               case 'часыработы': workingTime = getNextText(h2); break;
-               case 'адресиконтакты': contacts = getNextText(h2); break;
-               case 'стоимостьпосещения': price = getNextText(h2); break;
-               case 'pacположение': location = getNextText(h2); break;
-           }
-        });
-
-        fs.mkdirSync(`${directory}/0`, {recursive: true});
-
-        $('.bodycopy img').each((_, img) => {
-            const src = `https:${$(img).attr('src')}`;
-            const title = $(img).attr('alt');
-
-            const splitUrl = src.split('/');
-            const name = splitUrl[splitUrl.length - 1];
-
-            const id = photos.findIndex((el) => el.name === name);
-            if (id === -1) {
-                photos.push({
-                    title,
-                    name
-                });
-
-                rp(src).pipe(fs.createWriteStream(`${directory}/0/${name}`));
-            }
-        });
-
-        const object = {
-            title,
-            subtitle,
-            description,
-            workingTime,
-            contacts,
-            price,
-            location,
-            photos
-        };
-
-        console.log(object);
+        // TO-OO get from above
     } catch (e) {
         console.log(e);
     }
 };
 
-TestOne();
-// JsonSaver();
-// GetFullPropertiesToJson(filenamePiter);
-
+// TestOne();
+// getListOfObjects();
+// GetFullPropertiesToJson();
+collectToOneFile();
