@@ -2,15 +2,89 @@ const rp = require('requestretry');
 const colors = require('colors');
 const _cliProgress = require('cli-progress');
 const fs = require('fs');
-const path = require('path');
 const cheerio = require('cheerio');
+const builder = require('xmlbuilder');
 
 const site = 'dostoprimechatelnosti';
 const directory = `results/${site}`;
 const filename = `results/${site}/list.json`;
 const fullListFile = `results/${site}/full-list.json`;
+const fullListFile2 = `results/${site}/full-list2.json`;
 
 const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
+
+const convertToXml = () => {
+    const obj = {
+        objects: {
+            object: []
+        }
+    };
+
+    const file = fs.readFileSync(fullListFile);
+    const list = Array.from(JSON.parse(file));
+
+    list.forEach(un => {
+        const geo = un.geo.split(' ');
+
+        let mainPhoto = '';
+        const {photos} = un;
+        if (!!photos.length) {
+            mainPhoto = photos[0].name;
+        }
+
+        const object = {
+            '@code': un.id,
+            '@name_short': un.title,
+            '@name_long': un.subtitle,
+            '@geo_x': geo[1] || '',
+            '@geo_y': geo[0] || '',
+            '@type': 9,
+            '@description': un.description,
+            '@contact': un.contacts,
+            '@price': un.price,
+            '@url': un.url,
+            '@work_time': un.workingTime,
+            '@photo': mainPhoto
+        };
+
+        obj.objects.object.push(object);
+    });
+
+    const xml = builder.create(obj).end({ pretty: true });
+    fs.writeFile(`results/${site}.xml`, xml, () => console.log(`${site} XML successfully generated`));
+};
+
+const getGeoLocation = async () => {
+    const file = fs.readFileSync(fullListFile);
+    const list = Array.from(JSON.parse(file));
+
+    for (let i=0; i < list.length; i++) {
+        const object = list[i];
+        const {contacts} = object;
+        let geo = '';
+
+        if (contacts) {
+            const req = await rp({
+                uri: encodeURI(`https://geocode-maps.yandex.ru/1.x/?apikey=f1713d93-9684-4d6c-9f32-0ed3af9b776d&format=json&geocode=${contacts}`)
+            });
+
+            try {
+                const parsedBody = JSON.parse(req.body);
+
+                if (parsedBody.response && parsedBody.response.GeoObjectCollection.featureMember[0]) {
+                    geo = parsedBody.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos;
+                    console.log(contacts, geo);
+                }
+            } catch (e) {
+                console.error(`ERROR while getting geo of ${contacts}`);
+            }
+        }
+
+        object.geo = geo;
+    }
+
+    fs.writeFile(fullListFile2, JSON.stringify(list,null, 4), () => null);
+};
 
 const getListOfObjects = async () => {
     bar.start(29 * 20, 0);
@@ -46,7 +120,6 @@ const getListOfObjects = async () => {
     fs.writeFile(filename, JSON.stringify(list, null, 4), () => null);
     bar.stop();
 };
-
 
 const GetFullPropertiesToJson = async () => {
     const file = fs.readFileSync(filename);
@@ -181,4 +254,6 @@ const TestOne = async () => {
 // TestOne();
 // getListOfObjects();
 // GetFullPropertiesToJson();
-collectToOneFile();
+// collectToOneFile();
+convertToXml();
+// getGeoLocation();
