@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<types>
+    <summary last_code="10" />
+    <type code="0" name_rus="Все" name_eng="All"/>
+    <type code="1" name_rus="Парки" name_eng="Parks"/>
+    <type code="2" name_rus="Музеи" name_eng="Museums"/>
+    <type code="3" name_rus="Памятники" name_eng="Monuments"/>
+    <type code="4" name_rus="Храмы" name_eng="Churches"/>
+    <type code="5" name_rus="Театры" name_eng="Theaters"/>
+    <type code="6" name_rus="Конц.залы" name_eng="Conc.halls"/>
+    <type code="7" name_rus="Кинотеатры" name_eng="Cinemas"/>
+    <type code="8" name_rus="Вузы" name_eng="Univers."/>
+    <type code="9" name_rus="Магазины" name_eng="Shops"/>
+    <type code="10" name_rus="Библиотеки" name_eng="Libraries"/>
+</types>

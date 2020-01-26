@@ -7,9 +7,11 @@ const builder = require('xmlbuilder');
 
 const site = 'dostoprimechatelnosti';
 const directory = `results/${site}`;
+const directoryPhotos = `results/dos-photos`;
 const filename = `results/${site}/list.json`;
 const fullListFile = `results/${site}/full-list.json`;
 const fullListFile2 = `results/${site}/full-list2.json`;
+const unTypedListFile = `results/${site}/untyped-list.json`;
 
 const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 
@@ -27,9 +29,21 @@ const convertToXml = () => {
         const geo = un.geo.split(' ');
 
         let mainPhoto = '';
-        const {photos} = un;
+        const {photos, id} = un;
         if (!!photos.length) {
             mainPhoto = photos[0].name;
+
+            const source = `${directory}/${id}/${mainPhoto}`;
+            const destination = `${directoryPhotos}/${mainPhoto}`;
+
+            fs.copyFile(source, destination, (err) => {
+                if (err) {
+                    console.log(`error happened while copying ${source}`);
+                    return;
+                }
+
+                console.log(`${source} was copied to ${destination}`);
+            });
         }
 
         const object = {
@@ -38,7 +52,7 @@ const convertToXml = () => {
             '@name_long': un.subtitle,
             '@geo_x': geo[1] || '',
             '@geo_y': geo[0] || '',
-            '@type': 9,
+            '@type': un.type,
             '@description': un.description,
             '@contact': un.contacts,
             '@price': un.price,
@@ -52,6 +66,74 @@ const convertToXml = () => {
 
     const xml = builder.create(obj).end({ pretty: true });
     fs.writeFile(`results/${site}.xml`, xml, () => console.log(`${site} XML successfully generated`));
+};
+
+const typeDetector = () => {
+    const file = fs.readFileSync(fullListFile);
+    const list = Array.from(JSON.parse(file));
+    const unTypedList = [];
+
+    const includes = (el1, el2) => {
+        return (text) => el1.includes(text) || el2.includes(text);
+    };
+
+    list.forEach(un => {
+        const subtitle = un.subtitle.toLowerCase();
+        const description = un.description.toLowerCase();
+        let type = '';
+
+        const inc = includes(subtitle, description);
+
+        if (inc('парк')) {
+            type = 1;
+        }
+
+        if (!type && (inc('музеи') || inc('музей'))) {
+            type = 2;
+        }
+
+        if (!type && inc('памятник')) {
+            type = 3;
+        }
+
+        if (!type && (
+            inc('церков') ||
+            inc('монастыр') ||
+            inc('собор') ||
+            inc('храм')
+        )) {
+            type = 4;
+        }
+
+        if (!type && inc('кинотеатр')) {
+            type = 7;
+        }
+
+        if (!type && inc('театр')) {
+            type = 5;
+        }
+
+        if (!type && inc('библиотек')) {
+            type = 10;
+        }
+
+        un.type = type;
+
+        if (!type) {
+            const {id, title} = un;
+
+            unTypedList.push({
+                id,
+                title,
+                subtitle,
+                description
+            });
+        }
+    });
+
+    fs.writeFile(fullListFile2, JSON.stringify(list,null, 4), () => null);
+    fs.writeFile(unTypedListFile, JSON.stringify(unTypedList,null, 4), () => null);
+    console.log(unTypedList.length);
 };
 
 const getGeoLocation = async () => {
@@ -257,3 +339,4 @@ const TestOne = async () => {
 // collectToOneFile();
 convertToXml();
 // getGeoLocation();
+// typeDetector();
