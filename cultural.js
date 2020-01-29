@@ -52,7 +52,7 @@ const convertToXml = () => {
             '@name_long': un.subtitle,
             '@geo_x': geo[1] || '',
             '@geo_y': geo[0] || '',
-            '@type': un.type,
+            '@type': un.type || '3',
             '@description': un.description,
             '@contact': un.contacts,
             '@price': un.price,
