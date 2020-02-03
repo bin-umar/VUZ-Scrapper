@@ -40,12 +40,13 @@ const convertToXml = () => {
 
     const file = fs.readFileSync(fullListFile);
     const list = Array.from(JSON.parse(file));
+    let id = 45;
 
     list.forEach(un => {
         const geo = un.geo.split(' ');
 
         let mainPhoto = '';
-        const {photos, id, description} = un;
+        const {photos, description} = un;
         if (!!photos.length) {
             mainPhoto = photos[0].name;
 
@@ -63,7 +64,7 @@ const convertToXml = () => {
         }
 
         const object = {
-            '@code': un.id,
+            '@code': id++,
             '@name_short': un.title,
             '@name_long': un.subtitle,
             '@geo_x': geo[1] || '',

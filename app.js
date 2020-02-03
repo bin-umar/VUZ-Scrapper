@@ -118,6 +118,6 @@ const TestOne = async () => {
     console.log(obj.objects.object[0]);
 };
 
-XmlConverting('sp', 34);
-XmlConverting('moscow', 40);
+// XmlConverting('sp', 34);
+XmlConverting('moscow', 618);
 // TestOne();
