@@ -15,6 +15,22 @@ const unTypedListFile = `results/${site}/untyped-list.json`;
 
 const bar = new _cliProgress.Bar({}, _cliProgress.Presets.shades_classic);
 
+const shorten = (str) => str.replace(/^(.{1000}[^\s]*).*/, '$1');
+
+const cleanDescription = (description) => {
+    let desc = description.replace(/&#xA;|\n/g,  '');
+    if (desc.includes('img')) {
+        desc = desc.substr(0 , desc.indexOf('img'));
+    }
+
+    desc = shorten(desc);
+    if (desc[desc.length - 1] !== '.') {
+        desc += '.';
+    }
+
+    return desc;
+};
+
 const convertToXml = () => {
     const obj = {
         objects: {
@@ -29,21 +45,21 @@ const convertToXml = () => {
         const geo = un.geo.split(' ');
 
         let mainPhoto = '';
-        const {photos, id} = un;
+        const {photos, id, description} = un;
         if (!!photos.length) {
             mainPhoto = photos[0].name;
 
-            const source = `${directory}/${id}/${mainPhoto}`;
-            const destination = `${directoryPhotos}/${mainPhoto}`;
-
-            fs.copyFile(source, destination, (err) => {
-                if (err) {
-                    console.log(`error happened while copying ${source}`);
-                    return;
-                }
-
-                console.log(`${source} was copied to ${destination}`);
-            });
+            // const source = `${directory}/${id}/${mainPhoto}`;
+            // const destination = `${directoryPhotos}/${mainPhoto}`;
+            //
+            // fs.copyFile(source, destination, (err) => {
+            //     if (err) {
+            //         console.log(`error happened while copying ${source}`);
+            //         return;
+            //     }
+            //
+            //     console.log(`${source} was copied to ${destination}`);
+            // });
         }
 
         const object = {
@@ -53,7 +69,7 @@ const convertToXml = () => {
             '@geo_x': geo[1] || '',
             '@geo_y': geo[0] || '',
             '@type': un.type || '3',
-            '@description': un.description,
+            '@description': cleanDescription(description),
             '@contact': un.contacts,
             '@price': un.price,
             '@url': un.url,
