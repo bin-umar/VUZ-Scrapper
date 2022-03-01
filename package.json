@@ -15,7 +15,7 @@
     "puppeteer": "^1.18.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "requestretry": "^4.0.0",
+    "requestretry": "^7.0.0",
     "xmlbuilder": "^13.0.2"
   },
   "devDependencies": {}
